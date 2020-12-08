@@ -189,9 +189,9 @@ $(function () {
 
       series: [{
         //      //color: '#740aff', // 01 HAW
-        //      color: '#8DB600', // 01 HAW
+        color: '#8DB600', // 01 HAW
         //      //  visible: false
-        //    }, {
+      }, {
         //color: '#ccff00', // 02 FR
         color: '#f3c300', // 02 FR
       }, {
@@ -199,17 +199,17 @@ $(function () {
         color: '#0067A5', // 03 HD
       }, {
         //      //color: '#00998f', // 07 KN
-        //      color: '#e68fac', // 04 HO
-        //    }, {
+        color: '#e68fac', // 04 HO
+      }, {
         //color: '#0066ff', // 06 KA
         color: '#008856', // 05 KA
       }, {
         //      //color: '#ff9800', // 09 ST
-        //      color: '#c2b280', // 06 KN
-        //    }, {
+        color: '#c2b280', // 06 KN
+      }, {
         //      //color: '#33ff00', // 03 HD
-        //      color: '#be0032', // 07 MA
-        //    }, {
+        color: '#be0032', // 07 MA
+      }, {
         //color: '#ff0099', // 10 TU
         color: '#a1caf1', // 08 ST
       }, {
@@ -217,8 +217,8 @@ $(function () {
         color: '#f38400', // 09 TU
       }, {
         //      //color: '#990000', // 08 MA
-        //      color: '#875692', // 10 UL
-        //    }, {
+        color: '#875692', // 10 UL
+      }, {
         //color: '#808080', // 12 Sonstige
         color: '#222222' // 11 Sonstige
       }, {
