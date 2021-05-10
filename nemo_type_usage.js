@@ -4,7 +4,7 @@ $(function () {
   var title = 'bwForCluster NEMO Usage';
   var subtitle = "Virtaul Research Environments";
   var csv = "https://cloud.nemo.uni-freiburg.de/anon/usage/chart/statistics/" + filename + ".csv" + "?q=" + Math.random();
-  var credits = "2020 HPC Team, University of Freiburg";
+  var credits = "2021 HPC Team, University of Freiburg";
   var web = "https://nemo-cluster.github.io/nemo/",
 
     chart = Highcharts.chart(filename, {
