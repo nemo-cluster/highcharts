@@ -44,7 +44,7 @@ $(function () {
       rangeSelector: {
         enabled: true,
         verticalAlign: 'bottom',
-        selected: 1,
+        // selected: 1,
         buttons: [{
           type: 'month',
           count: 6,

@@ -18,7 +18,7 @@ $(function () {
       rangeSelector: {
         enabled: true,
         verticalAlign: 'bottom',
-        selected: 4,
+        // selected: 4,
         buttons: [{
           type: 'hour',
           count: 3,
