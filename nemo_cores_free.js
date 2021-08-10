@@ -1,8 +1,8 @@
 $(function () {
 
     var filename = "nemo_cores_free";
-    var title = 'bwForCluster NEMO Usage';
-    var subtitle = "Freed Cores (in % of total usage) in the next 6h, 12h, 24h and 48h";
+    var title = 'bwForCluster NEMO Queue';
+    var subtitle = "Freed Cores (% of currently reserved cores for jobs) in the next 6h, 12h, 24h and 48h";
     var csv = "https://cloud.nemo.uni-freiburg.de/anon/usage/chart/statistics/" + filename + ".csv" + "?q=" + Math.random();
     var credits = "2021 HPC Team, University of Freiburg";
     var web = "https://nemo-cluster.github.io/nemo/",
@@ -87,7 +87,7 @@ $(function () {
                     [0.1, '#DF5353'], // red
                     [0.5, '#DDDF0D'], // yellow
                     [0.9, '#55BF3B']  // green
-                ],
+                ]
             },
 
             data: {
@@ -112,34 +112,26 @@ $(function () {
             series: [{
                 name: '24h',
                 data: [{
-                    color: Highcharts.getOptions().colors[0],
                     radius: '115%',
                     innerRadius: '91%',
-                    // y: 70
                 }]
             }, {
                 name: '12h',
                 data: [{
-                    color: Highcharts.getOptions().colors[1],
                     radius: '90%',
                     innerRadius: '66%',
-                    // y: 50
                 }]
             }, {
                 name: '6h',
                 data: [{
-                    color: Highcharts.getOptions().colors[2],
                     radius: '65%',
                     innerRadius: '41%',
-                    // y: 30
                 }]
             }, {
                 name: '1h',
                 data: [{
-                    color: Highcharts.getOptions().colors[3],
                     radius: '40%',
                     innerRadius: '16%',
-                    // y: 10
                 }]
             }]
 
