@@ -49,14 +49,14 @@ $(function () {
                 endAngle: 360,
                 background: [{
                     outerRadius: '100%',
-                    innerRadius: '71%',
+                    innerRadius: '65%',
                     backgroundColor: Highcharts.color(Highcharts.getOptions().colors[0])
                         .setOpacity(0.3)
                         .get(),
                     borderWidth: 0
                 }, {
-                    outerRadius: '70%',
-                    innerRadius: '41%',
+                    outerRadius: '64%',
+                    innerRadius: '29%',
                     backgroundColor: Highcharts.color(Highcharts.getOptions().colors[1])
                         .setOpacity(0.3)
                         .get(),
@@ -99,13 +99,13 @@ $(function () {
                 name: 'Free Cores',
                 data: [{
                     radius: '100%',
-                    innerRadius: '71%'
+                    innerRadius: '65%'
                 }],
             }, {
                 name: 'Queued Cores',
                 data: [{
-                    radius: '70%',
-                    innerRadius: '41%'
+                    radius: '64%',
+                    innerRadius: '29%'
                 }]
             }]
 
