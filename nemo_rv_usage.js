@@ -36,7 +36,7 @@ $(function () {
         // Datumsformat
         xDateFormat: '%B %Y',
         valueSuffix: ' %',
-        shared: true,
+        // shared: true,
         // split: true,
         padding: 2
       },
@@ -90,7 +90,7 @@ $(function () {
       chart: {
         type: 'column',
         // height: (1 / 2 * 100) + '%',
-        zoomType: 'x'
+        zoomType: 'xy'
       },
 
       title: {
