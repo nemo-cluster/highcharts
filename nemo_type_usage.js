@@ -125,8 +125,8 @@ $(function () {
           dashStyle: 'dashdot',
           label: {
             text: 'DFG + Uni nodes: 920',
-            align: 'right',
-            x: -5,
+            align: 'left',
+            // x: -5,
             rotation: 0,
             style: {
               color: 'red',
