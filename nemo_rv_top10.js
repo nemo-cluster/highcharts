@@ -23,7 +23,7 @@ $(function () {
         //pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>',
         pointFormat: '<span style="color:{point.color}">●</span>  <b>{point.y}</b><br/>',
         //footerFormat: '<tr><th>Summe: </th>' + '<td style="text-align:right"><b>{point.total}%</b></td></tr>' + '</tbody></table>',
-        footerFormat: '<tr><th>Summe: </th>' + '<td style="text-align:right">{point.total:.2f}%</td></tr>' + '</tbody></table>',
+        footerFormat: '<tr><th>Sum: </th>' + '<td style="text-align:right">{point.total:.2f}%</td></tr>' + '</tbody></table>',
         // Datumsformat
         xDateFormat: '%B %Y',
         valueSuffix: ' %',
