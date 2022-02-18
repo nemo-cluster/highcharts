@@ -185,7 +185,9 @@ $(function () {
       }, {
         color: '#882D17', // 05 Geowissenschaften
       }, {
-        color: '#222222', // 06 Sonstiges/Andere
+        color: '#F3C300', // 06 Support
+      }, {
+        color: '#222222', // 07 Sonstiges/Andere
       }, {
         type: 'line',
         color: '#e1f0c2', // DFG 3M
