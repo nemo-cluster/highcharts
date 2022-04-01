@@ -93,10 +93,10 @@ $(function () {
         plotLines: [{
           color: 'red',
           width: 1,
-          value: Date.UTC(2016, 8, 1),
+          value: Date.UTC(2016, 8, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
-            text: 'DFG nodes: 748',
+            text: 'DFG + SH nodes: 748',
             align: 'left',
             rotation: 0,
             style: {
@@ -107,7 +107,7 @@ $(function () {
         }, {
           color: 'red',
           width: 1,
-          value: Date.UTC(2017, 9, 1),
+          value: Date.UTC(2017, 9, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
             text: 'DFG + SH nodes: 900',
@@ -120,7 +120,7 @@ $(function () {
         }, {
           color: 'red',
           width: 1,
-          value: Date.UTC(2018, 12, 1),
+          value: Date.UTC(2018, 12, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
             text: 'DFG + Shareholder nodes: 920',
@@ -133,7 +133,7 @@ $(function () {
         }, {
           color: 'red',
           width: 1,
-          value: Date.UTC(2022, 3, 1),
+          value: Date.UTC(2022, 2, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
             text: 'DFG + SH nodes: 900',
