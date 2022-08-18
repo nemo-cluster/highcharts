@@ -136,8 +136,22 @@ $(function () {
           value: Date.UTC(2022, 2, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
-            text: 'DFG + SH nodes: 900',
-            align: 'right',
+            text: 'DFG + Shareholder nodes: 900',
+            align: 'right', // x: -5
+            x: -5,
+            rotation: 0,
+            style: {
+              color: 'red',
+            }
+          },
+        }, {
+          color: 'red',
+          width: 1,
+          value: Date.UTC(2022, 7, 1), // -1 month
+          dashStyle: 'dashdot',
+          label: {
+            text: '836',
+            align: 'right', // x: -5
             x: -5,
             rotation: 0,
             style: {
