@@ -119,30 +119,55 @@ $(function () {
         }, {
           color: 'red',
           width: 1,
-          value: Date.UTC(2017, 9, 1),
+          value: Date.UTC(2017, 9, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
-            text: 'DFG + Uni nodes: 900',
+            text: 'DFG + SH nodes: 900',
             align: 'left',
             rotation: 0,
             style: {
               color: 'red',
-              // fontSize: 10,
             }
           },
         }, {
           color: 'red',
           width: 1,
-          value: Date.UTC(2018, 12, 1),
+          value: Date.UTC(2018, 12, 1), // -1 month
           dashStyle: 'dashdot',
           label: {
-            text: 'DFG + Uni nodes: 920',
+            text: 'DFG + Shareholder nodes: 920',
             align: 'left',
-            // x: -5,
             rotation: 0,
             style: {
               color: 'red',
-              // fontSize: 10,
+            }
+          },
+        }, {
+          color: 'red',
+          width: 1,
+          value: Date.UTC(2022, 2, 1), // -1 month
+          dashStyle: 'dashdot',
+          label: {
+            text: 'DFG + Shareholder nodes: 900',
+            align: 'right', // x: -5
+            x: -5,
+            rotation: 0,
+            style: {
+              color: 'red',
+            }
+          },
+        }, {
+          color: 'red',
+          width: 1,
+          value: Date.UTC(2022, 7, 1), // -1 month
+          dashStyle: 'dashdot',
+          label: {
+            text: '836',
+            align: 'right', // x: -5
+            x: -5,
+            rotation: 0,
+            style: {
+              color: 'red',
             }
           },
         }],
