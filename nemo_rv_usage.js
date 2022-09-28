@@ -163,9 +163,24 @@ $(function () {
           dashStyle: 'dashdot',
           label: {
             text: '836',
-            align: 'right', // x: -5
-            x: -5,
-            rotation: 0,
+            align: 'right',
+            x: -12,
+            y: 23,
+            rotation: 90, //align: 'right', x: -12, y: 23
+            style: {
+              color: 'red',
+            }
+          },
+        }, {
+          color: 'red',
+          width: 1,
+          value: Date.UTC(2022, 8, 1), // -1 month
+          dashStyle: 'dashdot',
+          label: {
+            text: '625',
+            align: 'left',
+            y: 0,
+            rotation: 90, // y: 0
             style: {
               color: 'red',
             }
