@@ -127,6 +127,10 @@ $(function () {
   getDayTitle(function (data) {
     var update = data.match(/#Date: .*/)[0].split(/Date: */)[1];
     chart.options.exporting.filename = filename;
+    chart.rangeSelector.update({
+      // allButtonsEnabled: true,
+      selected: 1,
+    });
     chart.credits.update({
       text: credits + ", update: " + update,
     });

@@ -21,7 +21,7 @@ $(function () {
         // pointFormat: '<tr><th style="color: {series.color}">{series.name}: </th>' + '<td style="text-align: right">{point.y}</td></tr><br/>',
         // pointFormat: '<tr><b><th style="color: {series.color}">{series.name}: </b></th>' + '<td style="text-align: right"><b>{point.y}</b></td></tr><br/>',
         //footerFormat: '<tr><th>Summe: </th>' + '<td style="text-align:right"><b>{point.total}%</b></td></tr>' + '</tbody></table>',
-        footerFormat: '<tr><th>Sum: </th>' + '<td style="text-align:right">{point.total} %</td></tr>' + '</tbody></table>',
+        footerFormat: '<tr><th>All: </th>' + '<td style="text-align:right">{point.total} %</td></tr>' + '</tbody></table>',
         // Datumsformat
         xDateFormat: '%B %Y',
         valueSuffix: ' %',
@@ -251,6 +251,10 @@ $(function () {
   getFTitle(function (data) {
     var update = data.match(/#Date: .*/)[0].split(/Date: */)[1];
     chart.options.exporting.filename = filename;
+    chart.rangeSelector.update({
+      // allButtonsEnabled: true,
+      selected: 1,
+    });
     chart.credits.update({
       text: credits + ", update: " + update,
     });

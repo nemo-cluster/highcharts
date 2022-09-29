@@ -21,9 +21,9 @@ $(function () {
         // pointFormat: '<tr><th style="color: {series.color}">{series.name}: </th>' + '<td style="text-align: right">{point.y}</td></tr><br/>',
         //pointFormat: '<tr><b><th style="color: {series.color}">{series.name}: </b></th>' + '<td style="text-align: right"><b>{point.y:.0f}</b></td></tr><br/>',
         //pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>',
-        pointFormat: '<span style="color:{point.color}">●</span>  <b>{point.y}</b><br/>',
+        pointFormat: '<span style="color:{point.color}">●</span> {point.name}: <b>{point.y}</b><br/>',
         //footerFormat: '<tr><th>Summe: </th>' + '<td style="text-align:right"><b>{point.total}%</b></td></tr>' + '</tbody></table>',
-        footerFormat: '<tr><th>Sum: </th>' + '<td style="text-align:right">{point.total:.2f}%</td></tr>' + '</tbody></table>',
+        footerFormat: '<tr><th>All projects: </th>' + '<td style="text-align:right">{point.total:.2f}%</td></tr>' + '</tbody></table>',
         // Datumsformat
         xDateFormat: '%B %Y',
         valueSuffix: ' %',
